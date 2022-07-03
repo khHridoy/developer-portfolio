@@ -8,7 +8,7 @@ h1 {
 h1 span {
   color: orange;
 }
-section {
+.container {
   display: flex;
   margin-bottom: 120px;
 }
@@ -35,4 +35,25 @@ section {
   background-image: url("images/dream-bg.png");
   background-position: right;
   background-repeat: no-repeat;
+}
+.experience-content {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin: 0 5% 0 5%;
+  padding: 0 2%;
+  border-radius: 8px;
+}
+#experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#baby {
+  border-left: 7px solid blue;
+}
+#full {
+  border-left: 7px solid tomato;
+}
+footer {
+  text-align: center;
 }
