@@ -10,6 +10,7 @@ h1 span {
 }
 section {
   display: flex;
+  margin-bottom: 120px;
 }
 .header-content {
   width: 50%;
@@ -28,5 +29,10 @@ section {
 }
 #header-area {
   background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+#dream-big {
+  background-image: url("images/dream-bg.png");
+  background-position: right;
   background-repeat: no-repeat;
 }
